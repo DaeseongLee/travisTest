@@ -91,7 +91,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 app.get('/', (req, res) => {
   res.json({
     ok: true,
-    "message":"되나"
+    "message":"되나용!!!"
   });
   // res.render('index');
 });
