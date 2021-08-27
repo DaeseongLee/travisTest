@@ -1,0 +1,9 @@
+node_modules/
+.env
+uploads/
+.vscode/
+spartaNod1.pem
+coverage/
+logs/
+dist/
+hax0r-report*

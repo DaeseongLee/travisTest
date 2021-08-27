@@ -1,0 +1,16 @@
+components:
+  schemas:
+    user_custom:
+      properties:
+        id:
+          type: integer
+          description: 루틴 고유 번호
+        customName: 
+          type: string
+          description: 커스텀 운동 이름
+        Category:
+          type: object
+          description: 카데고리 정보
+        User:
+          type: object
+          description: 유저 정보

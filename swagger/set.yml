@@ -1,0 +1,23 @@
+components:
+  schemas:
+    set:
+      properties:
+        id:
+          type: integer
+          description: 세트 고유 번호
+        weight:
+          type: integer
+          description: 무게
+        count:
+          type: integer
+          description: 횟수
+        time:
+          type: integer
+          description: 시간
+        type:
+          type: integer
+          description: 운동,휴식
+        Routine_Exercise:
+          type: object
+          description: 루틴 운동
+          

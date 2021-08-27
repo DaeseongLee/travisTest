@@ -1,0 +1,13 @@
+components:
+  schemas:
+    routine:
+      properties:
+        id:
+          type: integer
+          description: 루틴 고유 번호
+        routineName:
+          type: string
+          description: 루틴 이름
+        User:
+          type: object
+          description: 유저 정보

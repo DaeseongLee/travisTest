@@ -1,0 +1,31 @@
+{
+  "config":{
+    "target": "http://localhost:8005",
+    "phases": [
+      {
+        "duration": 60,
+        "arrivalRate": 50
+      }
+    ]
+  },
+  "scenarios": [{
+    "flow": [
+        {
+        "get": {
+            "url": "/routines?date=20210827",
+            "headers": {
+                "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuaWNrbmFtZSI6IuyZleuzhCIsImltZyI6Imh0dHBzOi8vay5rYWthb2Nkbi5uZXQvZG4vZHBrOWwxL2J0cW1HaEEybEtML096MHdEdUpuMVlWMkRJbjkyZjZEVksvaW1nXzY0MHg2NDAuanBnIiwiY29tbXVuaXR5Tmlja25hbWUiOm51bGwsImlkIjoxMywiaWF0IjoxNjMwMDQ1MzU0LCJleHAiOjE2MzAwNDU0NzR9.9wduKFomzgdc8r-FLhBryssGx_0aJ_dmFY-M3Hy2KYc,eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MzAwNDUzNTQsImV4cCI6MTYzMTI1NDk1NH0.wmrBS1nbHiO0ikaPqOrKaEve6VLIMcycfZFmYliFgJE"
+            }
+          }
+        },
+        {
+        "get": {
+                "url": "/challenges/user",
+                "headers": {
+                    "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuaWNrbmFtZSI6IuyZleuzhCIsImltZyI6Imh0dHBzOi8vay5rYWthb2Nkbi5uZXQvZG4vZHBrOWwxL2J0cW1HaEEybEtML096MHdEdUpuMVlWMkRJbjkyZjZEVksvaW1nXzY0MHg2NDAuanBnIiwiY29tbXVuaXR5Tmlja25hbWUiOm51bGwsImlkIjoxMywiaWF0IjoxNjMwMDQ1MzU0LCJleHAiOjE2MzAwNDU0NzR9.9wduKFomzgdc8r-FLhBryssGx_0aJ_dmFY-M3Hy2KYc,eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MzAwNDUzNTQsImV4cCI6MTYzMTI1NDk1NH0.wmrBS1nbHiO0ikaPqOrKaEve6VLIMcycfZFmYliFgJE"
+                }
+            }
+        }
+    ]
+  }]
+}

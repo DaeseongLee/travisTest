@@ -1,0 +1,23 @@
+{
+    "challengeName": "챌린지 이름333",
+    "challengeIntroduce": "챌린지 소개",
+    "challengeDateTime": "202108101930",
+    "exercises": [
+        {
+            "exerciseName": "벤치 프레스33333",
+            "set": [
+                {
+                    "type": "exercise",
+                    "count": 2,
+                    "weight": 20,
+                    "setCount": 1
+                },
+                {
+                    "type": "break",
+                    "minutes": 0,
+                    "seconds": 0
+                }
+            ]
+        }
+    ]
+}

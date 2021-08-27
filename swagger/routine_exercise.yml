@@ -1,0 +1,14 @@
+components:
+  schemas:
+    routine_exercise:
+      properties:
+        id:
+          type: integer
+          description: 루틴 내 운동 고유 번호
+        categoryName:
+          type: string
+          description: 루틴 내 운동 이름
+        Routine:
+          type: object
+          description: 루틴 정보
+        

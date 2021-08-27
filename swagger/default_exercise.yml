@@ -1,0 +1,13 @@
+components:
+  schemas:
+    default_exercise:
+      properties:
+        id:
+          type: integer
+          description: 카테고리 고유 번호
+        categoryName:
+          type: string
+          description: 카테고리 이름
+        Category:
+          type: object
+          description: 카테고리 정보
